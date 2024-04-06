@@ -1,0 +1,28 @@
+{
+  "name": "get-local-storage",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "npx rollup -c"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "javascript",
+    "localStorage",
+    "custom hooks"
+  ],
+  "author": "Sparshak Nag.",
+  "license": "ISC",
+  "description": "An easy custom hook to use local storage functionalities in your application.",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/react": "^18.2.74",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^4.14.0",
+    "tslib": "^2.6.2"
+  }
+}
